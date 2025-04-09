@@ -47,8 +47,8 @@ var zip = Enumerable.Zip(inputTensors, targetTensors);
 Console.WriteLine("\nInputs, Predictions and Targets:\n");
 foreach (var (First, Second) in zip)
 {
-Tensor predicted = network.Forward(First);
-TrainNN.PrettyPrint(First, predicted, Second);
+    Tensor predicted = network.Forward(First);
+    TrainNN.PrettyPrint(First, predicted, Second);
 }
 ```
 
