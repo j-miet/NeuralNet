@@ -2,7 +2,7 @@
 
 A simple neural network in C#, for learning purposes
 
-Mostly adapted from [this video](https://www.youtube.com/watch?v=o64FV-ez6Gw)
+Mostly adapted from [this video](https://www.youtube.com/watch?v=o64FV-ez6Gw)  
 Lacks the batching, but implements custom tensor objects in place of Numpy library.
 
 ### Features
@@ -69,7 +69,7 @@ Inputs, Predictions and Targets:
 [0 1]  [0,25198247576299976 0,7595856814134109 0,9975518376352713]  [0 0 1]  
 [0 0]  [-0,24869754703972174 1,2548136986975917 5,074447304742602E-05]  [0 2 0]  
 
-Adding more linear layers will not help with the predictions.
+Adding more linear layers will not help with the predictions.  
 But adding a non-linear ReLU layer between linear layers
 
 ```
